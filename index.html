@@ -1,0 +1,71 @@
+# web-intro-lab-5.1
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor 1: Form họ tên</title>
+  <style>
+    /* TODO: Thêm một chút CSS nội bộ để form trông gọn gàng, cân đối hơn */
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 40px;
+      background-color: #f8fafc;
+    }
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #334155;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input[type="text"]:focus {
+      border-color: #3b82f6;
+      outline: none;
+    }
+    button {
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    button:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <form action="#" method="post">
+      <label for="hoTen">Họ và tên:</label>
+      
+      <input type="text" id="hoTen" name="hoTen" placeholder="Nhập họ và tên của bạn...">
+      
+      <button type="submit">Gửi thông tin</button>
+    </form>
+  </main>
+
+  <script>
+    // Mã xử lý tương tác JavaScript có thể bổ sung tại đây nếu cần thiết
+  </script>
+
+</body>
+</html>
